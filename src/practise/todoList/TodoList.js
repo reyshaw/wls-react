@@ -8,7 +8,6 @@ class TodoList extends Component {
 			inputValue: ''
 		}
 	}
-	
 	handleChange (e) { // Input value has changed
 		this.setState({
 			inputValue: e.target.value

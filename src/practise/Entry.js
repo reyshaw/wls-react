@@ -1,12 +1,13 @@
 import React, {Component} from 'react'
-import TodoList from './todoList/TodoList'
+// import TodoList from './todoList/TodoList'
+import Game from './game/Game';
 
 class Entry extends Component {
 
 	 render () {
 	    return (
 	      <div className="App">
-	        <TodoList />
+	        <Game />
 	      </div>
 	    )
 	}
