@@ -39,6 +39,7 @@ const calculateWinner = function (squares) {
         if (calculateWinner(squares) || squares[i]) {
             return
         }
+        // this.state.history.push()
         squares[i] = this.state.xIsNext ? 'X' : 'O'
         this.setState({
             history: history.concat([{
