@@ -1,0 +1,14 @@
+nav.nav-menu {
+  height: 52px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  a {
+    font-size: 14px;
+    height: 52px;
+    line-height: 52px;
+    color: #e1e0e0;
+    padding: 0 19px;
+  }
+}

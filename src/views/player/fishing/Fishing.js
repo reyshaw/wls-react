@@ -1,13 +1,13 @@
 import React, {Component} from 'react'
 
-class Player extends Component {
+class Fishing extends Component {
 	render () {
 		return(
 			<div>
-				<h1>Player playing...</h1>
+				<h1>捕鱼</h1>
 			</div>
 		)
 	}
 }
 
-export default Player
+export default Fishing

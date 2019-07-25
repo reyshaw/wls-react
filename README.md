@@ -18,3 +18,15 @@
 ```
 	npm install react-router-dom --save
 ```
+
+## 集成sass
+```
+    npm install node-sass --save
+```
+
+## 集成element-ui
+```
+    npm i element-react --save
+    npm install element-theme-default --save
+    npm install react-hot-loader@next --save-dev
+```
