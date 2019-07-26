@@ -1,13 +1,17 @@
 import React, {Component} from 'react'
 import './index.scss'
 import {Button} from 'element-react';
+import Slider from '../../../components/slider/Slider';
+import ServiceAdvantage from './widget/service-advantage/ServiceAdvantage'
+import GameCategories from './widget/game-categories/GameCategories'
 
 class Index extends Component {
 	render () {
 		return(
 			<div>
-				<h1>首页</h1>
-				<Button type="primary">test</Button>
+				<Slider />
+				<ServiceAdvantage />
+				<GameCategories />
 			</div>
 		)
 	}

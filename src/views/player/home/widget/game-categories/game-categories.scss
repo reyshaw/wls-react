@@ -1,0 +1,22 @@
+div.wls-game-categories{
+  background: url("../service-advantage/bg.png") no-repeat center -103px;
+  color: #fff;
+  padding-top: 15px;
+  div.row {
+    display: flex;
+    .col {
+      border: 1px solid blue;
+      margin-bottom: 15px;
+      &:first-child {
+        flex: 0 0 40%;
+        &.col-20 {
+          flex: 0 0 20%;
+        }
+      }
+      &:last-child {
+        flex: 1;
+        margin-left: 15px;
+      }
+    }
+  }
+}

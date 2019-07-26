@@ -1,0 +1,44 @@
+div.wls-service-advantage {
+  height: 80px;
+  background: url('bg.png') no-repeat center -3px;
+  color: #fff;
+  .title {
+    height: 30px;
+    line-height: 30px;
+    strong {
+      font-size: 15px;
+      margin-right: 10px;
+      color: #f6cc00;
+      font-weight: bold;
+    }
+    span {
+      font-weight: normal;
+    }
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    li {
+      p {
+        float: left;
+        strong, span {
+          font-size: 15px;
+          display: block;
+          line-height: 20px;
+          text-align: right;
+        }
+        &:nth-child(2) {
+          color: #f6cc00;
+          margin: 0 15px;
+          font-size: 30px;
+          font-style: normal;
+          line-height: 45px;
+        }
+        &:last-child {
+          margin-top: 20px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
